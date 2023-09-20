@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{.Values.podname}}
+spec:
+  selector:
+    matchLabels:
+      app: {{.Values.podname}}
+  template:
+    metadata:
+      labels:
+        app: {{.Values.podname}}
+    spec:
+      containers:
+      - name: container
+        image: parks4754/{{.Values.containername}}
+        ports:
+        - containerPort: 80
+        
+        resources:
+          requests:
+            cpu: 100m
+            memory: 500Mi
+
