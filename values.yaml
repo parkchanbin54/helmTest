@@ -1,2 +1,3 @@
 podname: 'php-apache'
 containername: 'php-apache'
+replicas: 2
