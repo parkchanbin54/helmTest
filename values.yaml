@@ -6,3 +6,4 @@ image: imagename:68
 image: imagename:69
 image: /imagename:70/
 image: imagename:71
+image: "imagename:${currentBuild.number}"
