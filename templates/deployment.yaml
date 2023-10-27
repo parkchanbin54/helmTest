@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: {{.Values.podname}}
 spec:
-  replicas: {{.Values.replicas}}
+  replicas: 1
   selector:
     matchLabels:
       app: {{.Values.podname}}
