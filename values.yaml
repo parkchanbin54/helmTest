@@ -1,3 +1,4 @@
 podname: 'php-apache'
 containername: 'php-apache'
 image: 'imagename:65'
+image: imagename:66
