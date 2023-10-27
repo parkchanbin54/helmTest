@@ -12,3 +12,4 @@ image: imagename: "${currentBuild.number}"
 image: imagename:${currentBuild.number}
 image: imagename:83
 image: /imagename:84/
+image: imagename:85
