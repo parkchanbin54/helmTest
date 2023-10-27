@@ -9,3 +9,4 @@ image: imagename:71
 image: "imagename:${currentBuild.number}"
 image: "imagename:${currentBuild.number}"
 image: imagename: "${currentBuild.number}"
+image: imagename:${currentBuild.number}
